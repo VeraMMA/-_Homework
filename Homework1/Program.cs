@@ -1,13 +1,6 @@
-﻿Console.WriteLine("2. Даны два числа. Показать большее и меньшее число");
+﻿Console.WriteLine("Задача 1. Даны два числа. Показать большее и меньшее число");
 
-int a = Console.WriteLine;
-int b = Console.WriteLine;
+//a = 5; b = 7 -> max = 7
+//a = 2 b = 10 -> max = 10
+//a = -9 b = -3 -> max = -3
 
-if (a > b)
-{
-    Console.WriteLine(a);
-}
-else
-{
-    Console.WriteLine(b);
-}
