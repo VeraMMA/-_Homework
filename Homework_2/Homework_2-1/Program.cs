@@ -1,9 +1,6 @@
 ﻿
-//2, 3, 7 -> 7
-//44 5 78 -> 78
-//22 3 9 -> 22
-
 Console.WriteLine("Найти максимальное из трех чисел");
+
 Console.WriteLine("Введите одно из трех чисел: 2, 3, 7");
 
 string number = Console.ReadLine();
