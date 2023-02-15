@@ -1,9 +1,28 @@
-﻿Console.WriteLine("Введите трезначное число:");
+﻿using System;
 
-int numberA = Convert.ToInt32(Console.ReadLine());
+namespace homework
+{    class Program
+    {
+        static void Main()
+        {
+           Finder(456);
+    
+        }
+        public static void Print(string word){
+            Console.WriteLine(word);
+        }
+        public static void Finder(int numberA)
+        {
+            Print("Введите трезначное число:");
+            numberA = Convert.ToInt32(Console.ReadLine());
 
-if ( numberA / 100 > 1)
-{
-    numberA = numberA / 10 % 10;
+            if (numberA > 99 && numberA < 1000)
+            {
+                numberA = numberA / 10 % 10;
+            }
+            Console.WriteLine(numberA);
+        }
+    }
+
 }
-Console.WriteLine(numberA);
+
