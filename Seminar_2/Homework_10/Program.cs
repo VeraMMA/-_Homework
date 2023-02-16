@@ -5,8 +5,7 @@ namespace homework
     {
         static void Main()
         {
-           Finder(456);
-    
+           Finder(000);
         }
         public static void Print(string word){
             Console.WriteLine(word);
